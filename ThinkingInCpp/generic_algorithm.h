@@ -188,7 +188,7 @@ public:
         cout << "Circle::Draw()" << endl;
     }
     ~Circle() {
-        cout << "Circle::~Circle()" << endl;
+        cout << "~Circle()" << endl;
     }
 };
 class Square : public Shape {
@@ -301,7 +301,7 @@ class NString {
 
 public:
     NString() : thisOccurrence(0) {}
-    NString(const string &x) : s(x) { addString(x); }
+    /*explicit*/ NString(const string &x) : s(x) { addString(x); }
     explicit NString(const char *x) : s(x) { addString(x); }
     friend ostream& operator<<(ostream &os, const NString &ns) {
         return os << ns.s << "[" << ns.thisOccurrence << "]";

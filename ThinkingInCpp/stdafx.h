@@ -10,7 +10,6 @@
 #pragma once
 #ifndef STDAFX_H
 #define STDAFX_H
-                  
 #include "targetver.h"
 #include <stdio.h>
 #include <tchar.h>
@@ -28,6 +27,7 @@
 #include <ctime>
 #include <numeric>
 #include <random>
+#include <sstream>
 
 using std::string;
 using std::copy;
@@ -127,11 +127,13 @@ using std::partial_sum;
 using std::adjacent_difference;
 using std::random_device;
 using std::to_string;
+using std::ostringstream;
 
 //在此处引用程序需要的其他头文件
 #include "CommonFunctions.h"
 #include "PrintSequence.h"
 #include "generic_algorithm.h"
+#include "generic_container.h"
 
 #endif  //STDAFX_H
 

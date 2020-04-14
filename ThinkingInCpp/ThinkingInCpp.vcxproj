@@ -144,12 +144,14 @@
   <ItemGroup>
     <ClInclude Include="CommonFunctions.h" />
     <ClInclude Include="generic_algorithm.h" />
+    <ClInclude Include="generic_container.h" />
     <ClInclude Include="PrintSequence.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generic_algorithm.cpp" />
+    <ClCompile Include="generic_container.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

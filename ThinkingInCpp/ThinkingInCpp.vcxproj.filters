@@ -10,6 +10,9 @@
     <ClCompile Include="generic_algorithm.cpp">
       <Filter>chapter 6</Filter>
     </ClCompile>
+    <ClCompile Include="generic_container.cpp">
+      <Filter>chapter 7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintSequence.h">
@@ -27,6 +30,9 @@
     <ClInclude Include="generic_algorithm.h">
       <Filter>chapter 6</Filter>
     </ClInclude>
+    <ClInclude Include="generic_container.h">
+      <Filter>chapter 7</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
@@ -37,6 +43,9 @@
     </Filter>
     <Filter Include="chapter 6">
       <UniqueIdentifier>{3f61c8f9-434a-44d4-948f-3f6ac3e34ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter 7">
+      <UniqueIdentifier>{fbdea191-0255-46fa-ba46-9531f59cb076}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

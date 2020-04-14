@@ -9,9 +9,10 @@
 
 #include "stdafx.h"
 
+
 int main() {
     //chapter 6: generic algorithm
-#if 1
+#if 0
     testCopyInts();
     testCopyString();
     testCopyVector();
@@ -54,6 +55,14 @@ int main() {
     testNumeric();
 #endif
 
+    //chapter 7: generic container
+#if 0
+    testIntSet();
+    testWordSet();
+    testStlShape();
+    testStringVector();
+    testFEdit();
+#endif
 
     return 0;
 }
